@@ -1,8 +1,12 @@
+package test;
+
 import com.codeborne.selenide.Configuration;
+import data.DataHelper;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
+import pages.LoginPage;
+import pages.DashboardPage;
 import static com.codeborne.selenide.Selenide.open;
 
 public class MoneyTransferTest {

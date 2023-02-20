@@ -1,4 +1,5 @@
-import com.github.javafaker.Faker;
+package data;
+
 import lombok.Value;
 
 public class DataHelper {
